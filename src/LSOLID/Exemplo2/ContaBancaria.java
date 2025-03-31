@@ -1,6 +1,6 @@
 package LSOLID.Exemplo2;
 
-public class ContaBancaria {
+public class ContaBancaria implements IContaBancaria {
     protected double saldo;
 
     public void depositar(double valor) {
