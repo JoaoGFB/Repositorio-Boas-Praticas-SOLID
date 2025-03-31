@@ -1,5 +1,5 @@
 package LSOLID.Exemplo2;
 
-public interface IContaBancaria {
+public interface IContaBancaria extends IContaPoupanca{
     void sacar(double valor);
 }
