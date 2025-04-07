@@ -1,6 +1,9 @@
-package ISOLID.Exemplo2;
+package ISOLID.Exemplo2.Carros;
 
-public class CarroVoador implements Veiculo, VeiculoVoador{
+import ISOLID.Exemplo2.Veiculos.Veiculo;
+import ISOLID.Exemplo2.Veiculos.VeiculoVoador;
+
+public class CarroVoador implements Veiculo, VeiculoVoador {
     @Override
     public void dirigir() {
         System.out.println("O carro está dirigindo na estrada...");

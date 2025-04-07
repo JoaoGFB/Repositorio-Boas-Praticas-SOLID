@@ -1,6 +1,9 @@
-package ISOLID.Exemplo2;
+package ISOLID.Exemplo2.Carros;
 
-public class CarroAnfibio implements Veiculo, VeiculoAquatico{
+import ISOLID.Exemplo2.Veiculos.Veiculo;
+import ISOLID.Exemplo2.Veiculos.VeiculoAquatico;
+
+public class CarroAnfibio implements Veiculo, VeiculoAquatico {
 
     @Override
     public void dirigir() {

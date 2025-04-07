@@ -1,4 +1,6 @@
-package ISOLID.Exemplo2;
+package ISOLID.Exemplo2.Carros;
+
+import ISOLID.Exemplo2.Veiculos.SuperVeiculo;
 
 public class SuperCarro implements SuperVeiculo {
 
